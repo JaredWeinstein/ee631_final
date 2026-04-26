@@ -1,0 +1,16 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr 15 16:38:55 2026 
+Best design point: 1
+Design specs: 
+	ee536a_work_631_comparator_1	corner	Nominal - 
+	(VT("/vin1") - VT("/vin2"))		Error	No
+	VT("/voutp")		Error	No
+	VT("/voutn")		Error	No
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Apr 15 16:39:02 2026 

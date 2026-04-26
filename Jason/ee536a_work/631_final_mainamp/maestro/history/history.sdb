@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="8">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Apr 25 04:54:30 2026</timestamp>
+			<uuid>{1fa46551-496e-4cdf-8093-ad93e38b766f}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname></resultsname>
+			<simresults></simresults>
+			<runlog>/home/jaredwei@vlab.usc.edu/ee536a/ee536a_work/631_final_mainamp/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir></psfdir>
+			<simdir></simdir>
+		</historyentry>
+	</history>
+</setupdb>
