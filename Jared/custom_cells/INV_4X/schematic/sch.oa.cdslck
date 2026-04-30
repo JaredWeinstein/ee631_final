@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jaredwei
+HostName                       viterbi-scf01.vlab.usc.edu
+ProcessIdentifier              2539136
+ProcessCreationTime_UTC        1777536953
+ProcessCreationTime_Readable   Thu Apr 30 01:15:53 2026 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/jaredwei@vlab.usc.edu/ee536a/custom_cells/INV_4X/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Thu Apr 30 02:23:18 2026 PDT

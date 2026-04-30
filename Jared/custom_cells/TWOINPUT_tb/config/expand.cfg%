@@ -1,0 +1,16 @@
+//Revision 3
+config TWOINPUT_tb;
+design custom_cells.TWOINPUT_tb:schematic;
+liblist GSCLIB045, analogLib, basic, custom_cells, demo, gpdk045, gsclib045, gsclib045_tech, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell custom_cells.INV_1X binding :av_extracted;
+cell custom_cells.NOR2_2X binding :av_extracted;
+cell custom_cells.NOR2_1X binding :av_extracted;
+cell custom_cells.NAND2_1X binding :av_extracted;
+
+
+endconfig
