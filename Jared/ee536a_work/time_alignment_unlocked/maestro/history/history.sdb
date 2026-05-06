@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>May 1 18:07:28 2026</timestamp>
+			<uuid>{495a2c77-8449-43ea-afa6-7e9388657a3c}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/home/jaredwei@vlab.usc.edu/ee536a/ee536a_work/time_alignment_unlocked/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults></simresults>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<historyPsfSize>Not Computed</historyPsfSize>
+			<runlog></runlog>
+			<runlogfile></runlogfile>
+		</historyentry>
+	</history>
+</setupdb>

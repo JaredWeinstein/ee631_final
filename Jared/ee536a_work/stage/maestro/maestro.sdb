@@ -35,13 +35,13 @@
 						<value>200f</value>
 					</var>
 					<var>Cmain
-						<value>500f</value>
+						<value>255f</value>
 					</var>
 					<var>fin
 						<value>1M</value>
 					</var>
 					<var>idc
-						<value>15u</value>
+						<value>250u</value>
 					</var>
 					<var>L
 						<value>45n</value>
@@ -50,16 +50,16 @@
 						<value>65n</value>
 					</var>
 					<var>Ln_ota
-						<value>135n</value>
+						<value>200n</value>
 					</var>
 					<var>Lp
 						<value>65n</value>
 					</var>
 					<var>Lp_l
-						<value>90n</value>
+						<value>135n</value>
 					</var>
 					<var>Lp_ota
-						<value>135n</value>
+						<value>200n</value>
 					</var>
 					<var>madc
 						<value>100p</value>
@@ -77,43 +77,43 @@
 						<value>550m</value>
 					</var>
 					<var>W
-						<value>5u</value>
+						<value>8u</value>
 					</var>
 					<var>Wn_12
-						<value>30u</value>
+						<value>12u</value>
 					</var>
 					<var>Wn_34
-						<value>100u</value>
+						<value>35u</value>
 					</var>
 					<var>Wn_ota
-						<value>1.5u</value>
+						<value>2.2u</value>
 					</var>
 					<var>Wp_12
-						<value>160u</value>
+						<value>170u</value>
 					</var>
 					<var>Wp_34
-						<value>25u</value>
+						<value>80u</value>
 					</var>
 					<var>Wp_idc
-						<value>4.5u</value>
+						<value>10u</value>
 					</var>
 					<var>Wp_in
-						<value>95u</value>
+						<value>85u</value>
 					</var>
 					<var>Wp_ota
-						<value>4u</value>
+						<value>1u</value>
 					</var>
 					<var>Wp_ota_tail
-						<value>3u</value>
+						<value>5u</value>
 					</var>
 					<var>Wp_tail
-						<value>225u</value>
+						<value>70u</value>
 					</var>
 					<var>clk_period
-						<value>5n</value>
+						<value>10n</value>
 					</var>
 					<var>ramp_period
-						<value>250n</value>
+						<value>400n</value>
 					</var>
 					<var>vcmi
 						<value>550m</value>
@@ -126,6 +126,18 @@
 					</var>
 					<var>C_load
 						<value>300f</value>
+					</var>
+					<var>Ln_tail
+						<value>65n</value>
+					</var>
+					<var>Wn_idc
+						<value>8.3u</value>
+					</var>
+					<var>Wn_in
+						<value>55u</value>
+					</var>
+					<var>Wn_tail
+						<value>90u</value>
 					</var>
 				</vars>
 				<outputs>
@@ -181,6 +193,21 @@
 						<evalType>point</evalType>
 					</output>
 					<output>VT("/a1b")
+						<evalType>point</evalType>
+					</output>
+					<output>VT("/vinp")
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vinp") - VT("/vinn"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vop") + VT("/von"))
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/vop") + VT("/von")) / 2)
+						<evalType>point</evalType>
+					</output>
+					<output>VT("/p1eb")
 						<evalType>point</evalType>
 					</output>
 				</outputs>
